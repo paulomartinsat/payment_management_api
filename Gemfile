@@ -9,6 +9,7 @@ gem 'jwt', '~> 2.5'
 gem 'devise', '~> 4.8'
 gem 'rspec-rails', '~> 5.1', group: [:development, :test]
 gem 'factory_bot_rails', group: [:development, :test]
+gem 'dotenv-rails', groups: [:development, :test]
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
